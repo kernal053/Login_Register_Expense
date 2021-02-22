@@ -23,7 +23,7 @@ from django.contrib import messages
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'jfg!j0vu_%duwr6$8bp5oam4c3wempcnfu+!a&bn)bv*!mlyd8'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
