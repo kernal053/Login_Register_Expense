@@ -63,7 +63,7 @@ pipenv shell
 ### Apply migrations
 
 ```
-python source/manage.py migrate
+python mywebsite/manage.py migrate
 ```
 
 
@@ -74,5 +74,5 @@ python source/manage.py migrate
 Just run this command:
 
 ```
-python source/manage.py runserver
+python mywebsite/manage.py runserver
 ```
