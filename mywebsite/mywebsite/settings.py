@@ -85,7 +85,7 @@ DATABASES = {
        'ENGINE': 'django.db.backends.postgresql',
        'NAME' : 'expensenew',
       'USER' : 'postgres',
-       'PASSWORD' : 'zeke9010',
+       'PASSWORD' : '',
        'HOST' : 'localhost',
      # 'NAME': os.environ.get('DB_NAME'),
       #  'USER': os.environ.get('DB_USER'),
@@ -141,11 +141,11 @@ MESSAGE_TAGS = {
 
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'hentaram96@gmail.com'
+EMAIL_HOST_USER = ''
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'hentaram96@gmail.com'
+DEFAULT_FROM_EMAIL = ''
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = 'henta#im1'
+EMAIL_HOST_PASSWORD = ''
 
 # email stuff
 #EMAIL_HOST = os.environ.get('EMAIL_HOST')
